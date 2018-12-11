@@ -1,0 +1,29 @@
+{
+  "name": "bkstrdb",
+  "version": "0.0.1",
+  "description": "Bookstore database",
+  "main": "dist/bundle.js",
+  "author": "aaron",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "@types/node": "^10.12.12",
+    "babel-loader": "^8.0.4",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build:dev": "webpack-cli --mode=development",
+    "build:prod": "webpack-cli --mode=production",
+    "start:dev": "webpack-dev-server"
+  },
+  "dependencies": {}
+}

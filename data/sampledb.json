@@ -1,0 +1,36 @@
+{
+    "terms": [
+        {
+            "year": "2018",
+            "season": "Winter",
+            "courses": [
+                {
+                    "id": {
+                        "department": "ACCT",
+                        "number": "1100",
+                        "suffix": "1A"
+                    },
+                    "books": [
+                        {
+                            "need": "required",
+                            "name": "Accounting 1100/1110 (MCC)(Custom)",
+                            "author": "Wild",
+                            "edition": "N/A",
+                            "ISBN": "9781307097207",
+                            "copyright": "2017",
+                            "publisher": "MCGRAW HILL CREATE (CUSTOM PUBLISHING)",
+                            "selloptions": [
+                                {
+                                    "type": "paperback",
+                                    "sale": "buy",
+                                    "condition": "new",
+                                    "price": "133.50"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

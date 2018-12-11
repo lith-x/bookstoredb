@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# ts parsed stuff
+scraper/**/*.js
+sandbox.js
