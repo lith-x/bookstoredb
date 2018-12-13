@@ -1,4 +1,33 @@
-body, body * {
+* {
     margin: 0;
     padding: 0;
+}
+
+body * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+}
+
+.btn {
+    height: 3.5em;
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    text-align: left;
+    text-indent: 3em;
+    transition: 0.3s;
+    outline: none;
+}
+
+.active,
+.btn:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
