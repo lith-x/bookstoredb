@@ -11,6 +11,38 @@
                 "$tsc"
             ],
             "group": "build"
+        },
+        {
+            "label": "site:watch",
+            "dependsOn": [
+                "site:watch - webpack",
+                "site:watch - scss"
+            ]
+        },
+        {
+            "label": "site:watch - webpack",
+            "type": "shell",
+            "command": "yarn",
+            "args": [
+                "run",
+                "build:dev"
+            ],
+            "problemMatcher": [
+                "$ts-webpack-watch"
+            ]
+        },
+        {
+            "label": "site:watch - scss",
+            "type": "shell",
+            "command": "sass",
+            "args": [
+                "--watch",
+                "${workspaceFolder}/dist/style.scss",
+                "${workspaceFolder}/dist/style.css"
+            ],
+            "problemMatcher": [
+                "$node-sass"
+            ]
         }
     ]
 }
