@@ -66,3 +66,7 @@ sandbox.js
 
 # webpack stuff
 dist/bundle.js
+
+# sass stuff
+dist/style.css.map
+dist/style.css

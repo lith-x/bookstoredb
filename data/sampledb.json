@@ -3,6 +3,12 @@
         "termid": "18/WI",
         "year": "2018",
         "season": "Winter",
+        "dates": {
+            "start": "",
+            "end": "",
+            "rentaldue": "",
+            "finaidend": ""
+        },
         "subjects": [{
             "name": "Accounting",
             "courses": [{

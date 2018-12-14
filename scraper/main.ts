@@ -1,9 +1,8 @@
-import { MccPageParser } from './parsing';
-import { mccBaseUrl, mccDefaultPath } from './constants';
-import { writeFileSync, appendFileSync } from 'fs';
+import { writeFileSync } from 'fs';
+import { resolve as resolvePath } from 'path';
 
 function main() {
-    writeFileSync('./courses.txt', '');
+    writeFileSync(resolvePath(__dirname, 'data/courses.json'), '');
     // MccPageParser.parsePage(`${mccBaseUrl}${mccDefaultPath}?FilterField1=TermCode&FilterValue1=18/WI`, true)
     //     .then((pageInfo) => {
     //         pageInfo.courseTables.forEach((table) => {
