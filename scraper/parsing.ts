@@ -1,35 +1,57 @@
-import { httpsReqBody, getCourseTable } from './scraping';
-import { mccBaseUrl, MccCatalogPageInfo, Html, Page, Table } from './constants';
+import { ScrapeHtml } from './scraping';
+import {
+    mccBaseUrl, MccCatalogPage, Html, Page, Table, RawCatalogCourse, RawCatalogCourseInfo, RawCatalogCourseLinks,
+    courseInfoKeys, courseLinkKeys, infoKeyCount, linkKeyCount, matchers
+} from './constants';
 
-// Matchers, i.e. magic regex sourced from the page's HTML.
-const courseMatcher = /id="titl\d+-\d+_\d+_" groupString="(.+?)"/g;
-const nextPageUrlMatcher = /"ms-paging"(?:[\s\S\n]+?)&quot;(.+?)&quot;/g;
-const listGuidMatcher = /pageListId:\s*"\{([\w\d-]+?)\}"/g;
-// tslint:disable-next-line:max-line-length
-const tableInfoMatcher = /<td class="ms-vb2">\s*?(?:<(?:a.*?|nobr)>)?\s*?\b([\w\s!"#$%&'()*+,\-./:;<=>?@\[\\\]\^`]*?)\s*?(?:<\/(?:a|nobr)>)?\s*?<\/td>/g;
-const tableLinkMatcher = /<DIV>\s*?<a href='(.+?)' ?target='_blank' ?>(?:Bookstore Link|Important Dates)<\/a>\s*?<\/DIV>/g;
-const courseEntryMatcher = /<tr class="(?:ms-alternating)?">/g;
+export namespace Parser {
+    export async function getCoursesFromCatalogPage(page: Page) { }
+
+    export function getCoursesFromTable(table: Table): RawCatalogCourse[] {
+        let ci = 0;
+        const courses: RawCatalogCourse[] = [];
+        try {
+            while (matchers.courseEntry.exec(table.text) !== null) {
+                courses.push(<RawCatalogCourse>{});
+                const courseInfo = <RawCatalogCourseInfo>{};
+                for (let i = 0; i < infoKeyCount; i += 1) {
+                    const infoVal = matchers.tableInfo.exec(table.text)[1];
+                    (<any>Object).assign(courseInfo, { [courseInfoKeys[i]]: infoVal });
+                }
+                courses[ci].info = courseInfo;
+
+                const courseLinks = <RawCatalogCourseLinks>{};
+                for (let i = 0; i < linkKeyCount; i += 1) {
+                    const linkVal = matchers.tableLink.exec(table.text)[1];
+                    (<any>Object).assign(courseLinks, { [courseLinkKeys[i]]: linkVal });
+                }
+                courses[ci].links = courseLinks;
+                ci += 1;
+            }
+            return courses;
+        } catch (e) {
+            console.error('Was not able to parse table. Will get more useful debug info later.');
+        }
+    }
+}
 
 export class MccPageParser {
-    public static async parsePage(pageUrl: string, first: boolean):
-        Promise<MccCatalogPageInfo> {
+    public static async parsePage(pageUrl: string):
+        Promise<MccCatalogPage> {
         try {
-            let method: string;
-            if (first) method = 'GET';
-            else method = 'POST';
-
             // Wrap in object to pass by reference
-            const page = { url: pageUrl, text: await httpsReqBody(pageUrl, method) };
+            const page: Page = { url: pageUrl, text: await ScrapeHtml.page(pageUrl) };
 
             const groupStrings = MccPageParser.getGroupStrings(page);
             const nextPageUrl = MccPageParser.getNextPageUrl(page);
             const listGuid = MccPageParser.getListGuid(page);
             const courseTables: Table[] = [];
             for (let i = 0; i < groupStrings.length; i += 1) {
-                courseTables.push(await getCourseTable(listGuid, groupStrings[i]));
+                const tableText = await ScrapeHtml.courseTable({ listGuid, groupString: groupStrings[i] });
+                courseTables.push({ text: tableText });
             }
 
-            return { groupStrings, nextPageUrl, listGuid, courseTables };
+            return; // { groupStrings, nextPageUrl, listGuid, courseTables };
         } catch (e) {
             console.error(e);
         }
@@ -39,100 +61,27 @@ export class MccPageParser {
         try {
             const courses: string[] = [];
             let courseGroupMatch: RegExpExecArray;
-            while ((courseGroupMatch = courseMatcher.exec(htmlBody.text)) !== null) { // TODO: see if I even need 2 parenthases around this.
+            while ((courseGroupMatch = matchers.course.exec(htmlBody.text)) !== null) {
                 courses.push(courseGroupMatch[1]);
             }
             return courses;
         } catch (e) {
+            console.error(e);
         }
     }
 
     private static getNextPageUrl(page: Page): string {
-        const nextPagePath = nextPageUrlMatcher.exec(page.text)[1].split('&amp;').join('&');
-        return mccBaseUrl + nextPagePath;
+        try {
+            const nextPagePath = matchers.nextPageUrl.exec(page.text)[1].split('&amp;').join('&');
+            return mccBaseUrl + nextPagePath;
+        } catch (e) {
+            console.warn('Could not find next catalog page\'s url. Returning null.');
+            return null;
+        }
     }
 
     private static getListGuid(htmlBody: Html): string {
-        return listGuidMatcher.exec(htmlBody.text)[1].toUpperCase();
-    }
-}
-
-interface RawCatalogCourseInfo {
-    subject: string;
-
-    building: string;
-    instructmethods: string;
-
-    name: string;
-    synonym: string;
-    title: string;
-    teacher: string;
-
-    time: string;
-    startdate: string;
-    enddate: string;
-
-    credits: string;
-}
-
-interface RawCatalogCourseLinks {
-    bookstore: string;
-    importantdates: string;
-}
-
-export interface RawCatalogCourse {
-    info: RawCatalogCourseInfo;
-    links: RawCatalogCourseLinks;
-}
-
-const emptyCourse: RawCatalogCourse = {
-    info: {
-        subject: '',
-        building: '',
-        instructmethods: '',
-        name: '',
-        synonym: '',
-        title: '',
-        teacher: '',
-        time: '',
-        startdate: '',
-        enddate: '',
-        credits: ''
-    },
-    links: {
-        bookstore: '',
-        importantdates: ''
-    }
-};
-
-export function getCoursesFromTable(table: Table): RawCatalogCourse[] {
-    const courses: RawCatalogCourse[] = [];
-    const courseInfoKeys = Object.keys(emptyCourse.info);
-    const infoKeyCount = courseInfoKeys.length;
-    const courseLinkKeys = Object.keys(emptyCourse.links);
-    const linkKeyCount = courseLinkKeys.length;
-    let ci = 0;
-    try {
-        while (courseEntryMatcher.exec(table.text) !== null) {
-            courses.push(<RawCatalogCourse>{});
-            const courseInfo = <RawCatalogCourseInfo>{};
-            for (let i = 0; i < infoKeyCount; i += 1) {
-                const infoVal = tableInfoMatcher.exec(table.text)[1];
-                (<any>Object).assign(courseInfo, { [courseInfoKeys[i]]: infoVal });
-            }
-            courses[ci].info = courseInfo;
-
-            const courseLinks = <RawCatalogCourseLinks>{};
-            for (let i = 0; i < linkKeyCount; i += 1) {
-                const linkVal = tableLinkMatcher.exec(table.text)[1];
-                (<any>Object).assign(courseLinks, { [courseLinkKeys[i]]: linkVal });
-            }
-            courses[ci].links = courseLinks;
-            ci += 1;
-        }
-        return courses;
-    } catch (e) {
-        console.error('Was not able to parse table. Will get more useful debug info later.');
+        return matchers.listGuid.exec(htmlBody.text)[1].toUpperCase();
     }
 }
 
