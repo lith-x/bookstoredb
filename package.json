@@ -21,9 +21,11 @@
     "webpack-dev-server": "^3.1.10"
   },
   "scripts": {
+    "watch:dev": "webpack-cli --mode=development --watch",
+    "watch:prod": "webpack-cli --mode=production --watch",
     "build:dev": "webpack-cli --mode=development",
     "build:prod": "webpack-cli --mode=production",
-    "start:dev": "webpack-dev-server"
+    "serve:dev": "webpack-dev-server"
   },
   "dependencies": {}
 }

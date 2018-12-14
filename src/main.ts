@@ -1,24 +1,32 @@
+import {buildCourseListElt} from './domtree';
+import {Term} from './types';
 
-window.onload = () => {
-    const expandables = document.getElementsByClassName('expandable');
-    for (const expandable of expandables) {
-        console.log('found expandable');
-        if (!(expandable instanceof HTMLElement)) return;
-        console.log('expandable is div');
-        const contents = expandable.nextElementSibling;
-        if (!(contents instanceof HTMLElement)) return;
-        console.log('contents are div');
-        expandable.onclick = () => {
-            expandable.classList.toggle('active');
-            if (!Number.parseInt(contents.style.maxHeight, 10)) {
-                contents.style.maxHeight = `${contents.scrollHeight}px`;
-            } else {
-                contents.style.maxHeight = '0';
-            }
-        };
-    }
+window.onload = async () => {
+    initializeSearchBar('searchbar');
+    const courseListRoot = document.getElementById('courselistroot');
+    fetch('/data/sampledb.json').then((res) => {
+        return res.json();
+    }).then((data: Term) => {
+        buildCourseListElt(courseListRoot, data);
+    });
 };
 
+function initializeSearchBar(className: string) {
+    const searchBar = document.getElementsByClassName('searchbar')[0];
+    if (!(searchBar instanceof HTMLInputElement)) return;
+    if (searchBar.placeholder == null) return;
+
+    const defaultPlaceholder = searchBar.placeholder;
+    searchBar.onfocus = (ev) => {
+        searchBar.placeholder = '';
+    };
+
+    searchBar.onblur = (ev) => {
+        if (searchBar.value === '')  {
+            searchBar.placeholder = defaultPlaceholder;
+        }
+    };
+}
 /*
         <h1 class="subject clickable expandable">Accounting</h1>
         <div class="subject contents">

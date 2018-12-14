@@ -59,6 +59,15 @@
                 "showReuseMessage": true,
                 "clear": false
             }
+        },
+        {
+            "label": "start webpack dev server",
+            "type": "shell",
+            "command": "yarn",
+            "args": [
+                "run",
+                "serve:dev"
+            ]
         }
     ]
 }
