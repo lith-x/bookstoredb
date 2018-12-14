@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "transpile:scraper",
+            "label": "tsc:scraper",
             "type": "typescript",
             "tsconfig": "tsconfig.scraper.json",
             "problemMatcher": [
@@ -29,7 +29,15 @@
             ],
             "problemMatcher": [
                 "$ts-webpack-watch"
-            ]
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            }
         },
         {
             "label": "site:watch - scss",
@@ -42,7 +50,15 @@
             ],
             "problemMatcher": [
                 "$node-sass"
-            ]
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            }
         }
     ]
 }

@@ -61,5 +61,8 @@ typings/
 .next
 
 # ts parsed stuff
-scraper/**/*.js
+scraper/build
 sandbox.js
+
+# webpack stuff
+dist/bundle.js

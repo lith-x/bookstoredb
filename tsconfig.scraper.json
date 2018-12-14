@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "inlineSourceMap": true
+        "inlineSourceMap": true,
+        "outDir": "./scraper/build"
     },
     "include": ["./scraper/**/*.ts"]
 }
