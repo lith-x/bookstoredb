@@ -8,10 +8,10 @@
             "type": "node",
             "request": "launch",
             "name": "Build + Run scraper",
-            "program": "${workspaceFolder}\\scraper\\main.js",
-            "preLaunchTask": "transpile:scraper",
+            "program": "${workspaceFolder}/scraper/build/main.js",
+            "preLaunchTask": "build:scraper",
             "outFiles": [
-                "${workspaceFolder}/scraper/**/*.js"
+                "${workspaceFolder}/scraper/build/*.js"
             ],
             "console": "integratedTerminal"
 
@@ -20,9 +20,9 @@
             "type": "node",
             "request": "launch",
             "name": "Run scraper",
-            "program": "${workspaceFolder}\\scraper\\main.js",
+            "program": "${workspaceFolder}/scraper/build/main.js",
             "outFiles": [
-                "${workspaceFolder}/scraper/**/*.js"
+                "${workspaceFolder}/scraper/build/*.js"
             ],
             "console": "integratedTerminal"
 

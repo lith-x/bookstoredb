@@ -1,5 +1,0 @@
-POST https://catalog.mccneb.edu/_layouts/15/inplview.aspx?List={BB6F5CBE-1D7D-4BFD-AD83-267B6789FD7F}&IsXslView=TRUE&GroupString=%3B%23Geography%3B%23Elkhorn%20Valley%20Campus%3B%23&IsGroupRender=TRUE&FilterField1=TermCode&FilterValue1=18%2FWI
-####
-POST https://catalog.mccneb.edu/_layouts/15/inplview.aspx?IsXslView=TRUE&IsGroupRender=TRUE&FilterField1=TermCode&FilterValue1=18%2FWI&GroupString=%3B%23Geography%3B%23Elkhorn%20Valley%20Campus%3B%23&List={BB6F5CBE-1D7D-4BFD-AD83-267B6789FD7F}
-####
-POST https://catalog.mccneb.edu/_layouts/15/inplview.aspx?IsXslView=TRUE&IsGroupRender=TRUE&FilterField1=TermCode?FilterValue1=18%2FWI&GroupString=%3B%23Biology%3B%23Fremont%20Area%20Center%3B%23&List={BB6F5CBE-1D7D-4BFD-AD83-267B6789FD7F}

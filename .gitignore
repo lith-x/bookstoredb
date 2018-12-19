@@ -60,13 +60,13 @@ typings/
 # next.js build output
 .next
 
+### Scraper stuff ###
+
 # ts parsed stuff
 scraper/build
 sandbox.js
 
-# webpack stuff
-dist/bundle.js
+### Site stuff ###
 
-# sass stuff
-dist/style.css.map
-dist/style.css
+# webpack stuff
+site/build

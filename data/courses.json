@@ -1,0 +1,721 @@
+[{
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus",
+        "name": "ACCT_1100",
+        "synonym": "282133",
+        "title": "Accounting I (2018 Credit Winter ACCT_1100_1A)",
+        "teacher": "M. Hill",
+        "time": "M W 10:00 AM - 11:55 AM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1100&section-1=1A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1100_1A&term=18/WI&title=Accounting I"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus",
+        "name": "ACCT_1100",
+        "synonym": "282134",
+        "title": "Accounting I (2018 Credit Winter ACCT_1100_1B)",
+        "teacher": "C. Hunzeker",
+        "time": "T TH 12:00 PM - 1:55 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1100&section-1=1B",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1100_1B&term=18/WI&title=Accounting I"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus, Hybrid",
+        "name": "ACCT_1110",
+        "synonym": "282147",
+        "title": "Accounting II (2018 Credit Winter ACCT_1110_1A)",
+        "teacher": "R. Kleeman",
+        "time": "W 8:00 AM - 9:55 AM",
+        "startdate": "12/5/2018",
+        "enddate": "2/20/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1110&section-1=1A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1110_1A&term=18/WI&title=Accounting II"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus",
+        "name": "ACCT_1110",
+        "synonym": "282148",
+        "title": "Accounting II (2018 Credit Winter ACCT_1110_1C)",
+        "teacher": "C. Hunzeker",
+        "time": "T TH 10:00 AM - 11:55 AM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1110&section-1=1C",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1110_1C&term=18/WI&title=Accounting II"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus",
+        "name": "ACCT_1110",
+        "synonym": "282149",
+        "title": "Accounting II (2018 Credit Winter ACCT_1110_1D)",
+        "teacher": "R. Kleeman",
+        "time": "M W 12:00 PM - 1:55 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1110&section-1=1D",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1110_1D&term=18/WI&title=Accounting II"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus, Hybrid",
+        "name": "ACCT_1110",
+        "synonym": "282150",
+        "title": "Accounting II (2018 Credit Winter ACCT_1110_2A)",
+        "teacher": "C. Hunzeker",
+        "time": "M 6:00 PM - 7:55 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1110&section-1=2A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1110_2A&term=18/WI&title=Accounting II"
+    }
+}, {
+    "info": {
+        "subject": "Accounting",
+        "building": "Elkhorn Valley Campus - Room 119",
+        "instructmethods": "On Campus",
+        "name": "ACCT_1120",
+        "synonym": "282162",
+        "title": "Accounting III (2018 Credit Winter ACCT_1120_2A)",
+        "teacher": "L. Tatum",
+        "time": "T TH 6:00 PM - 8:00 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=139&term_id-1=18/WI&div-1=&dept-1=ACCT&course-1=1120&section-1=2A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ACCT_1120_2A&term=18/WI&title=Accounting III"
+    }
+}, {
+    "info": {
+        "subject": "Architectural Design Technolog",
+        "building": "Fort Bldg 025 - Room 257",
+        "instructmethods": "On Campus",
+        "name": "ARCH_1120",
+        "synonym": "282179",
+        "title": "Beginning REVIT (Building) (2018 Credit Winter ARCH_1120_4A)",
+        "teacher": "R. Hart",
+        "time": "T TH 1:00 PM - 5:00 PM",
+        "startdate": "12/4/2018",
+        "enddate": "1/17/2019",
+        "credits": "4.5"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=ARCH&course-1=1120&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ARCH_1120_4A&term=18/WI&title=Beginning REVIT (Building)"
+    }
+}, {
+    "info": {
+        "subject": "Architectural Design Technolog",
+        "building": "Fort Bldg 025 - Room 257",
+        "instructmethods": "On Campus",
+        "name": "ARCH_1130",
+        "synonym": "282183",
+        "title": "Intermediate REVIT (Building) (2018 Credit Winter ARCH_1130_4A)",
+        "teacher": "R. Hart",
+        "time": "T TH 1:00 PM - 5:00 PM",
+        "startdate": "1/22/2019",
+        "enddate": "2/21/2019",
+        "credits": "4.5"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=ARCH&course-1=1130&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ARCH_1130_4A&term=18/WI&title=Intermediate REVIT (Building)"
+    }
+}, {
+    "info": {
+        "subject": "Architectural Design Technolog",
+        "building": "Fort Bldg 025 - Room 266",
+        "instructmethods": "On Campus",
+        "name": "ARCH_1200",
+        "synonym": "292880",
+        "title": "Wood-Frame Architecture (2018 Credit Winter ARCH_1200_4A)",
+        "teacher": "S. Ling",
+        "time": "M W 1:00 PM - 5:00 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "9"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=ARCH&course-1=1200&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ARCH_1200_4A&term=18/WI&title=Wood-Frame Architecture"
+    }
+}, {
+    "info": {
+        "subject": "Architectural Design Technolog",
+        "building": "Fort Bldg 025 - Room 257",
+        "instructmethods": "On Campus",
+        "name": "ARCH_2420",
+        "synonym": "282187",
+        "title": "Renovation Architecture (2018 Credit Winter ARCH_2420_5A)",
+        "teacher": "R. Hart",
+        "time": "T TH 6:00 PM - 10:00 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "9"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=ARCH&course-1=2420&section-1=5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ARCH_2420_5A&term=18/WI&title=Renovation Architecture"
+    }
+}, {
+    "info": {
+        "subject": "Architectural Design Technolog",
+        "building": "Fort Bldg 025 - Room 256",
+        "instructmethods": "On Campus",
+        "name": "ARCH_2520",
+        "synonym": "282189",
+        "title": "Beginning 3-D Studio Max (2018 Credit Winter ARCH_2520_5A)",
+        "teacher": "S. Wozniak",
+        "time": "T TH 6:00 PM - 9:30 PM",
+        "startdate": "12/4/2018",
+        "enddate": "1/17/2019",
+        "credits": "4"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=ARCH&course-1=2520&section-1=5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=ARCH_2520_5A&term=18/WI&title=Beginning 3-D Studio Max"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 115",
+        "instructmethods": "On Campus",
+        "name": "AUTB_1110",
+        "synonym": "282232",
+        "title": "Structural Repair II (2018 Credit Winter AUTB_1110_D5)",
+        "teacher": "P. McKibbin",
+        "time": "W 6:00 PM - 10:00 PM",
+        "startdate": "12/5/2018",
+        "enddate": "2/20/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=1210&section-1=D1",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_1210_D1&term=18/WI&title=Nonstruct Repair II"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_1210",
+        "synonym": "282233",
+        "title": "Nonstruct Repair II (2018 Credit Winter AUTB_1210_D1)",
+        "teacher": "P. McKibbin",
+        "time": "T 8:00 AM - 4:00 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/19/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=1210&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_1210_D5&term=18/WI&title=Nonstruct Repair II"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 115",
+        "instructmethods": "On Campus",
+        "name": "AUTB_1210",
+        "synonym": "282234",
+        "title": "Nonstruct Repair II (2018 Credit Winter AUTB_1210_D5)",
+        "teacher": "D. Lowe",
+        "time": "M T 6:00 PM - 10:00 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2120&section-1=D1",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2120_D1&term=18/WI&title=Structural Repair III"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2120",
+        "synonym": "282235",
+        "title": "Structural Repair III (2018 Credit Winter AUTB_2120_D1)",
+        "teacher": "P. McKibbin",
+        "time": "TH 8:00 AM - 11:40 AM",
+        "startdate": "12/6/2018",
+        "enddate": "2/21/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2230&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2230_D5&term=18/WI&title=Nonstruct Repair IV"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2230",
+        "synonym": "282236",
+        "title": "Nonstruct Repair IV (2018 Credit Winter AUTB_2230_D5)",
+        "teacher": "R. Ulfers",
+        "time": "W TH 6:00 PM - 10:00 PM",
+        "startdate": "12/5/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2240&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2240_D5&term=18/WI&title=Nonstruct Repair V"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2240",
+        "synonym": "282237",
+        "title": "Nonstruct Repair V (2018 Credit Winter AUTB_2240_D5)",
+        "teacher": "R. Ulfers",
+        "time": "W TH 6:00 PM - 10:00 PM",
+        "startdate": "12/5/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2241&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2241_D5&term=18/WI&title=Nonstruct Repair VI"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2241",
+        "synonym": "282238",
+        "title": "Nonstruct Repair VI (2018 Credit Winter AUTB_2241_D5)",
+        "teacher": "R. Ulfers",
+        "time": "W TH 6:00 PM - 10:00 PM",
+        "startdate": "12/5/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2300&section-1=D1",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2300_D1&term=18/WI&title=Auto Refinishing I"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2300",
+        "synonym": "282239",
+        "title": "Auto Refinishing I (2018 Credit Winter AUTB_2300_D1)",
+        "teacher": "P. McKibbin",
+        "time": "M 8:00 AM - 11:40 AM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2310&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2310_D5&term=18/WI&title=Auto Refinishing II"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2310",
+        "synonym": "282240",
+        "title": "Auto Refinishing II (2018 Credit Winter AUTB_2310_D5)",
+        "teacher": "J. Baker",
+        "time": "M T 6:00 PM - 10:00 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2310&section-1=DQ",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2310_DQ&term=18/WI&title=Auto Refinishing II"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 132",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2310",
+        "synonym": "293669",
+        "title": "Auto Refinishing II (2018 Credit Winter AUTB_2310_DQ)",
+        "teacher": "J. Baker",
+        "time": "T TH 12:30 PM - 4:30 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2460&section-1=D2",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2460_D2&term=18/WI&title=Collision Estimating II"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 115",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2460",
+        "synonym": "282246",
+        "title": "Collision Estimating II (2018 Credit Winter AUTB_2460_D2)",
+        "teacher": "P. McKibbin",
+        "time": "M 12:30 PM - 4:00 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2550&section-1=D2",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2550_D2&term=18/WI&title=Electrical & Mechanical System"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 115",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2550",
+        "synonym": "282247",
+        "title": "",
+        "teacher": "P. McKibbin",
+        "time": "TH 12:30 PM - 4:00 PM",
+        "startdate": "12/6/2018",
+        "enddate": "2/21/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2550&section-1=D5",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2550_D5&term=18/WI&title=Electrical & Mechanical System"
+    }
+}, {
+    "info": {
+        "subject": "Auto Collision Technology",
+        "building": "Applied Technology Center - Room 115",
+        "instructmethods": "On Campus",
+        "name": "AUTB_2550",
+        "synonym": "282248",
+        "title": "",
+        "teacher": "T. Sievers",
+        "time": "TH 6:00 PM - 10:00 PM",
+        "startdate": "12/6/2018",
+        "enddate": "2/21/2019",
+        "credits": "3"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=AUTB&course-1=2550&section-1=D6",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=AUTB_2550_D6&term=18/WI&title=Electrical & Mechanical System"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 228",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_1121L",
+        "synonym": "282297",
+        "title": "Biology II Lab (2018 Credit Winter BIOS_1121L_L4B)",
+        "teacher": "C. Delucchi",
+        "time": "T TH 3:40 PM - 5:10 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010_4A&term=18/WI&title=General Biology"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 228",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_1121L",
+        "synonym": "282298",
+        "title": "Biology II Lab (2018 Credit Winter BIOS_1121L_L5A)",
+        "teacher": "C. Delucchi",
+        "time": "T TH 8:20 PM - 9:50 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010&section-1=4B",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010_4B&term=18/WI&title=General Biology"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 232",
+        "instructmethods": "On Campus",
+        "name": "BIOS_1310",
+        "synonym": "282305",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "T TH 1:00 PM - 3:10 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "5"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010&section-1=5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010_5A&term=18/WI&title=General Biology"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 230",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_1310L",
+        "synonym": "282304",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "T TH 3:20 PM - 4:50 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010&section-1=6A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010_6A&term=18/WI&title=General Biology"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 226",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2150",
+        "synonym": "282320",
+        "title": "Microbiology (2018 Credit Winter BIOS_2150_4A)",
+        "teacher": "L. Bartsch",
+        "time": "M W 8:00 AM - 10:30 AM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010L&section-1=L4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010L_L4A&term=18/WI&title=General Biology Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 226",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2150",
+        "synonym": "282321",
+        "title": "Microbiology (2018 Credit Winter BIOS_2150_4B)",
+        "teacher": "M. Northam",
+        "time": "M W 10:40 AM - 1:10 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010L&section-1=L4B",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010L_L4B&term=18/WI&title=General Biology Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 228",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_2150L",
+        "synonym": "282311",
+        "title": "Microbiology Lab (2018 Credit Winter BIOS_2150L_L4A)",
+        "teacher": "L. Bartsch",
+        "time": "M W 10:40 AM - 12:10 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010L&section-1=L5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010L_L5A&term=18/WI&title=General Biology Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 228",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_2150L",
+        "synonym": "282312",
+        "title": "Microbiology Lab (2018 Credit Winter BIOS_2150L_L4B)",
+        "teacher": "M. Northam",
+        "time": "M W 1:20 PM - 2:50 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1010L&section-1=L6A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1010L_L6A&term=18/WI&title=General Biology Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 232",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2310",
+        "synonym": "282336",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "T TH 8:00 AM - 10:30 AM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1121&section-1=4B",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1121_4B&term=18/WI&title=Biology II"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 232",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2310",
+        "synonym": "282337",
+        "title": "",
+        "teacher": "B. Hackfort",
+        "time": "T TH 5:45 PM - 8:15 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1121&section-1=5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1121_5A&term=18/WI&title=Biology II"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 230",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_2310L",
+        "synonym": "282328",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "T TH 10:40 AM - 12:10 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1121L&section-1=L4B",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1121L_L4B&term=18/WI&title=Biology II Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 230",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_2310L",
+        "synonym": "282329",
+        "title": "",
+        "teacher": "B. Hackfort",
+        "time": "T TH 8:25 PM - 9:55 PM",
+        "startdate": "12/4/2018",
+        "enddate": "2/21/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1121L&section-1=L5A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1121L_L5A&term=18/WI&title=Biology II Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 232",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2320",
+        "synonym": "282351",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "M W 8:00 AM - 10:30 AM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1310&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1310_4A&term=18/WI&title=Surv Human Anatomy & Physiol"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 232",
+        "instructmethods": "On Campus",
+        "name": "BIOS_2320",
+        "synonym": "282352",
+        "title": "",
+        "teacher": "J. Snelling",
+        "time": "M W 5:45 PM - 8:15 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "6"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=1310L&section-1=L4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_1310L_L4A&term=18/WI&title=Survey Hum Anat & Phys Lab"
+    }
+}, {
+    "info": {
+        "subject": "Biology",
+        "building": "Fort Bldg 010 - Room 230",
+        "instructmethods": "Laboratory",
+        "name": "BIOS_2320L",
+        "synonym": "282343",
+        "title": "",
+        "teacher": "D. Stallwood",
+        "time": "M W 10:40 AM - 12:10 PM",
+        "startdate": "12/3/2018",
+        "enddate": "2/25/2019",
+        "credits": "0"
+    },
+    "links": {
+        "bookstore": "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=140&term_id-1=18/WI&div-1=&dept-1=BIOS&course-1=2150&section-1=4A",
+        "importantdates": "https://webapps.mccneb.edu/schedule/ImportantDates.asp?id=BIOS_2150_4A&term=18/WI&title=Microbiology"
+    }
+}]
