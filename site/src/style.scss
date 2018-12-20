@@ -12,7 +12,7 @@ body {
 // Mixins, variables, SCSS stuff...
 
 @mixin rounded-text-input($height) {
-    background-color: #eee;
+    background-color: #eee; // TODO: make placeholder a tad brighter
     color: rgb(25, 25, 25);
     font-family: Arial, Helvetica, sans-serif;
     font-size: $height/2;
