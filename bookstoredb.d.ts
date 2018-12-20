@@ -1,3 +1,5 @@
+// Place where back-end and front-end share typings
+
 export interface BookDB {
     lastupdated: string;
     terms: Term[];

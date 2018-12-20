@@ -65,8 +65,3 @@ typings/
 # ts parsed stuff
 scraper/build
 sandbox.js
-
-### Site stuff ###
-
-# webpack stuff
-site/build
