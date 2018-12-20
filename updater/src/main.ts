@@ -1,4 +1,4 @@
-import { ScrapeHtml } from './scraping';
+import { Scraper } from './scraping';
 import {} from './parsing';
 
 function main() {}

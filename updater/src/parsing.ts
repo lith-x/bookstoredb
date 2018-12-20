@@ -1,10 +1,10 @@
-import { Parser } from 'htmlparser2';
-import { ScrapeHtml } from './scraping';
+import { Parser as HtmlParser } from 'htmlparser2';
+import { Scraper } from './scraping';
 import { Page } from './constants';
 
 const courseEntryMatch = /titl1-(\d+)_(\d+)?_?/g;
 
-const mccCatalogParser = new Parser({
+const mccCatalogParser = new HtmlParser({
     onopentag: (name, attribs) => {
         if (name === 'tbody' && attribs['id'].match(/titl5-(\d+)_(\d+)?_?/g)) {
 
@@ -14,7 +14,7 @@ const mccCatalogParser = new Parser({
     decodeEntities: true
 });
 
-export namespace Parsing {
+export namespace Parser {
     export function mainCatalogPage(page: Page) {
          
     }

@@ -45,13 +45,46 @@ body {
     
 }
 
-#courselistroot {
+.courselistroot {
+    font-family: Arial, Helvetica, sans-serif;
+    $biggestText: 45px;
     $width: 95%;
     width: $width;
     @include center-element(95%);
     margin: {
         top: 35px;
         bottom: 35px;
+    }
+
+    & > ul.subject-list {
+        & > span.header {
+            font-size: $biggestText;
+        }
+        & > span.subject-acronym {
+            font-size: $biggestText/2.5;
+            position: relative;
+            // bottom: $biggestText/6;
+            // left: $biggestText/7.5;
+        }
+        
+        & > ul.course-list {
+            position: relative;
+            left: 4.5%;
+            & > span.header {
+                font-size: $biggestText/1.17;
+            }
+
+            & > div.campus {
+                font-size: $biggestText/1.5;
+                position: relative;
+                left: 4.5%;
+            }
+
+            & > ul.section-list {
+                position: relative;
+                left: 8%;
+            }
+        }
     }
 }
 
