@@ -69,7 +69,7 @@ body {
         
         & > ul.course-list {
             position: relative;
-            left: 4.5%;
+            left: 4.5%; // TODO: don't make the indents relative
             & > span.header {
                 font-size: $biggestText/1.17;
             }
