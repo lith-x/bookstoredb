@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs"
+        "module": "commonjs",
+        "jsx": "react",
+        "inlineSourceMap": true
     },
     "include": [
         "updater/**/*.ts",

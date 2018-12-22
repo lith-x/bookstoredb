@@ -27,8 +27,28 @@ body {
     margin: {
         left: (100%-$width)/2;
         right: (100%-$width)/2;
-    };
+    }
 }
+
+// TODO: Take into account aspect ratios as well
+
+// Smartphones
+@media (min-width: 320px) and (max-width: 480px) {}
+
+// Small tablets, smartphones (landscape)
+@media (min-width: 481px) and (max-width: 767px) {}
+
+// Tablets, Ipads (portrait)
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+// Tablets, iPads (landscape)
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+// Laptops, Desktops
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+// Desktops
+@media (min-width: 1281px) {}
 
 // Main components
 
@@ -38,56 +58,16 @@ body {
 }
 
 .searchbar {
-    @include rounded-text-input(55px);
     $width: 45%;
-    width: $width;
     @include center-element($width);
-    
-}
-
-.courselistroot {
-    font-family: Arial, Helvetica, sans-serif;
-    $biggestText: 45px;
-    $width: 95%;
+    @include rounded-text-input(55px);
     width: $width;
-    @include center-element(95%);
-    margin: {
-        top: 35px;
-        bottom: 35px;
-    }
+}
 
-    & > ul.subject-list {
-        & > span.header {
-            font-size: $biggestText;
-        }
-        & > span.subject-acronym {
-            font-size: $biggestText/2.5;
-            position: relative;
-            // bottom: $biggestText/6;
-            // left: $biggestText/7.5;
-        }
-        
-        & > ul.course-list {
-            position: relative;
-            left: 4.5%; // TODO: don't make the indents relative
-            & > span.header {
-                font-size: $biggestText/1.17;
-            }
-
-            & > div.campus {
-                font-size: $biggestText/1.5;
-                position: relative;
-                left: 4.5%;
-            }
-
-            & > ul.section-list {
-                position: relative;
-                left: 8%;
-            }
-        }
+.subject-list {
+    .subject-acronym {
+        padding-left: 1.5em;
     }
 }
 
-.subjectheader {
-    font-size: 25pt;
-}
+// Testing

@@ -1,12 +1,4 @@
 {
     "html.validate.scripts": false,
-    "html.validate.styles": false,
-    // "mocha.requires": [
-    //     "ts-node/register"
-    // ],
-    // "mocha.files.glob": "*/**/*.test.ts",
-    // "mocha.options": {
-    //     "compilers": "ts-node/register"
-    // },
-    // "mocha.path": "../node_modules/mocha"
+    "html.validate.styles": false
 }

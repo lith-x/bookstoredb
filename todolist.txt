@@ -1,0 +1,28 @@
+
+Site:
+    Dev:
+        ✔ Get a live-reload dev environment
+            Typescript, SCSS, Babel, Webpack
+            Unsure about React integration.
+    HTML:
+        ☐ Figure out how things will be arranged
+    Design:
+        ✔ Get SCSS
+    Scripting:
+        ☐ React?
+            Pros - makes development a lot easier, dynamic
+            Cons - possibly increases load time, request loading, or something else idk
+            ☐ Find out impact of react on request time, load times, etc.
+            ☐ Find out impact of having react as an *external dependency*
+    Data:
+        ✔ Info arrangement
+            ./data/sampledb.json
+        ✔ GQL API or static?
+            Data size shouldn't be a concern. The aim is to minimize server requests.
+            Going with *static* for now. If one massive request proves difficult,
+            dynamic loading with GQL is always an option that can be implemented later.
+Updater:
+    Parser:
+        ☐ Placeholder
+    Scraper:
+        ☐ Placeholder
