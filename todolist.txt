@@ -1,19 +1,38 @@
-
 Site:
     Dev:
         ✔ Get a live-reload dev environment
             Typescript, SCSS, Babel, Webpack
             Unsure about React integration.
-    HTML:
-        ☐ Figure out how things will be arranged
     Design:
+        ☐ Section details @high
+        ☐ Book details, listing, pricing @high 
+        ☐ Animate expand/collapse of list entries @low
+        ☐ Make lowest price entry _slightly_ bolder than the others @low
+    HTML:
+        Arrangement:
+            ✔ Main listing entries 
+            ☐ Section details @high 
+                Depends on - Design.Section Details
+            ☐ Book details @high
+                Depends on - Design.Book details...
+    SCSS:
         ✔ Get SCSS
+        ☐ Expand/collapse animation @low
     Scripting:
-        ☐ React?
+        ☐ React? @mid
             Pros - makes development a lot easier, dynamic
             Cons - possibly increases load time, request loading, or something else idk
             ☐ Find out impact of react on request time, load times, etc.
             ☐ Find out impact of having react as an *external dependency*
+        ☐ Convert static functions into const declarations @low
+
+    Search:
+        ☐ Default - match anything in entry. @low
+            Results will be sections with full names (i.e. "ABCD 1000 1A - Intro to Apples")
+    Course Sorting:
+        ☐ Options to sort by all @low
+    Book Sorting:
+        ☐ By name, required, price, purchase type, etc. @low
     Data:
         ✔ Info arrangement
             ./data/sampledb.json
@@ -21,6 +40,8 @@ Site:
             Data size shouldn't be a concern. The aim is to minimize server requests.
             Going with *static* for now. If one massive request proves difficult,
             dynamic loading with GQL is always an option that can be implemented later.
+    Extra goodies:
+        ☐ Barcode generation @optional
 Updater:
     Parser:
         ☐ Placeholder

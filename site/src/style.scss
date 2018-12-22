@@ -25,11 +25,12 @@ body {
 
 @mixin center-element($width) {
     margin: {
-        left: (100%-$width)/2;
-        right: (100%-$width)/2;
+        left: (100% - $width)/2;
+        right: (100% - $width)/2;
     }
 }
 
+/* stylelint-disable */
 // TODO: Take into account aspect ratios as well
 
 // Smartphones
@@ -49,6 +50,7 @@ body {
 
 // Desktops
 @media (min-width: 1281px) {}
+/* stylelint-enable */
 
 // Main components
 
@@ -71,3 +73,13 @@ body {
 }
 
 // Testing
+
+table, tr, td { border: solid black 1px; border-collapse: collapse; }
+.example-list-root {
+    margin: 25px;
+}
+
+.book-pricing {
+    width: 80%;
+    margin: auto;
+}

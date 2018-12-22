@@ -1,5 +1,4 @@
 import { DomUtils } from './scripts/domutils';
-import { reacttest } from './components/test';
 
 if (process.env.NODE_ENV === 'development') {
     require('../index.html');
@@ -7,11 +6,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 window.onload = () => {
-    console.log('hi');
-
     DomUtils.clickOnSearch('searchbar');
-
-    reacttest();
 };
 
 const isbnToBarcodeBin = (isbn: string | number) => {

@@ -15,17 +15,26 @@
                 "name": "1100",
                 "sections": [{
                     "name": "1A",
-                    "teacher": "Jane Jones",
+                    "teacher": {
+                        "name": "Jane Jones",
+                        "email": "jjones@example.com"
+                    },
                     "books": [{
                         "name": "Example Book",
                         "author": "John Smith",
                         "edition": "",
                         "publisher": "",
                         "isbn": "1234567891234",
+                        "required": true,
                         "prices": [{
                             "condition": "new",
+                            "purchase": "buy",
+                            "amount": 120.00
+                        }, {
+                            "condition": "digital",
                             "purchase": "rent",
-                            "amount": 80.00
+                            "days": "180",
+                            "amount": 85.00
                         }]
                     }]
                 }]

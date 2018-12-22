@@ -1,4 +1,26 @@
 {
     "html.validate.scripts": false,
-    "html.validate.styles": false
+    "html.validate.styles": false,
+    "todo.timekeeping.finished.enabled": false,
+    "todo.tags.names": [
+        "critical",
+        "high",
+        "mid",
+        "low",
+        "optional"
+    ],
+    "todo.colors.tags.background": [
+        "#f73858",
+        "#f9b820",
+        "#f6fc53",
+        "#c6fc3c",
+        "#a67fc6"
+    ],
+    "todo.colors.tags.foreground": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+    ]
 }

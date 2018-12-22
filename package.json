@@ -14,6 +14,7 @@
     "@types/react-dom": "^16.0.11",
     "@types/request": "^2.48.1",
     "babel-loader": "^8.0.4",
+    "browserslist": "^4.3.6",
     "css-loader": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "htmlparser2": "^3.10.0",
@@ -26,6 +27,9 @@
     "request": "^2.88.0",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.4.3",
     "ts-jest": "^23.10.5",
     "ts-loader": "^5.3.1",
     "tslint": "^5.12.0",
@@ -42,6 +46,7 @@
     "site:build:prod": "webpack-cli --mode=production",
     "site:serve:dev": "webpack-dev-server --mode=development --open"
   },
+  "browserslist": "ie >= 11, chrome >= 45, edge >= 12, ff >= 52, ios >= 8, android >= 4, > 0.1%",
   "jest": {
     "projects": [
       {
@@ -60,5 +65,7 @@
       }
     ]
   },
-  "browserslist": "ie >= 11, chrome >= 45, edge >= 12, ff >= 52, ios >= 8, android >= 4, > 0.1%"
+  "stylelint": {
+    "extends": "stylelint-config-recommended-scss"
+  }
 }
