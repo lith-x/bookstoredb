@@ -1,0 +1,71 @@
+{
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/htmlparser2": "^3.7.31",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/request": "^2.48.1",
+    "babel-loader": "^8.0.4",
+    "browserslist": "^4.3.6",
+    "css-loader": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "htmlparser2": "^3.10.0",
+    "jest": "^23.6.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "raw-loader": "^1.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "request": "^2.88.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.4.3",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "site:watch:dev": "webpack-cli --mode=development --watch",
+    "site:watch:prod": "webpack-cli --mode=production --watch",
+    "site:build:dev": "webpack-cli --mode=development",
+    "site:build:prod": "webpack-cli --mode=production",
+    "site:serve:dev": "webpack-dev-server --mode=development --open"
+  },
+  "browserslist": "ie >= 11, chrome >= 45, edge >= 12, ff >= 52, ios >= 8, android >= 4, > 0.1%",
+  "jest": {
+    "projects": [
+      {
+        "displayName": "site",
+        "preset": "ts-jest",
+        "testMatch": [
+          "<rootdir>/site/**/*.test.ts"
+        ]
+      },
+      {
+        "displayName": "scraper",
+        "preset": "ts-jest",
+        "testMatch": [
+          "<rootdir>/updater/**/*.test.ts"
+        ]
+      }
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-recommended-scss"
+  }
+}

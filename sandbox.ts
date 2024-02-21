@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 const tableInfoMatcher = /<td class="ms-vb2">\s*?(?:<(?:a.*?|nobr)>)?\s*?([\w\d\-:/()., ]*?)\s*?(?:<\/(?:a|nobr)>)?\s*?<\/td>/g;
 const tableLinkMatcher = /<DIV>\s*?<a href='(.+?)' ?target='_blank' ?>(?:Bookstore Link|Important Dates)<\/a>\s*?<\/DIV>/g;
 const courseEntryMatcher = /<tr class="(?:ms-alternating)?">/g;
@@ -7,25 +7,25 @@ interface Table {
     text: string;
 }
 
-interface RawMccCourse {
-    subject: string;
+// interface RawMccCourse {
+//     subject: string;
 
-    building: string;
-    instructmethods: string;
+//     building: string;
+//     instructmethods: string;
 
-    name: string;
-    synonym: string;
-    title: string;
-    teacher: string;
+//     name: string;
+//     synonym: string;
+//     title: string;
+//     teacher: string;
 
-    time: string;
-    startdate: string;
-    enddate: string;
+//     time: string;
+//     startdate: string;
+//     enddate: string;
 
-    credits: string;
-    bookstorelink: string;
-    importantdates: string;
-}
+//     credits: string;
+//     bookstorelink: string;
+//     importantdates: string;
+// }
 
 interface RawCatalogCourseInfo {
     subject: string;
@@ -86,13 +86,15 @@ function getCoursesFromTable(table: Table): RawCatalogCourse[] {
         courses.push(<RawCatalogCourse>{});
         const courseInfo = <RawCatalogCourseInfo>{};
         for (let i = 0; i < infoKeyCount; i += 1) {
-            (<any>Object).assign(courseInfo, { [courseInfoKeys[i]]: tableInfoMatcher.exec(table.text)[1] });
+            const courseInfoVal = tableInfoMatcher.exec(table.text) ?? [];
+            Object.assign(courseInfo, { [courseInfoKeys[i]]: courseInfoVal[1] });
         }
         courses[ci].info = courseInfo;
 
         const courseLinks = <RawCatalogCourseLinks>{};
         for (let i = 0; i < linkKeyCount; i += 1) {
-            (<any>Object).assign(courseLinks, { [courseLinkKeys[i]]: tableLinkMatcher.exec(table.text)[1] });
+            const courseLinkVal = tableLinkMatcher.exec(table.text) ?? [];
+            Object.assign(courseLinks, { [courseLinkKeys[i]]: courseLinkVal[1] });
         }
         courses[ci].links = courseLinks;
         ci += 1;
@@ -100,6 +102,6 @@ function getCoursesFromTable(table: Table): RawCatalogCourse[] {
     return courses;
 }
 
-const exampleTable = <string>fs.readFileSync('./html/table4.html');
+const exampleTable = fs.readFileSync('./html/table4.html', { encoding: "utf-8" });
 const courses = getCoursesFromTable({ text: exampleTable });
 courses.forEach(course => console.log(course));
